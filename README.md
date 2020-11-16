@@ -1,16 +1,21 @@
 # camara
 
-A new Flutter project.
+Proyecto camara , consiste en subir imagenes aun repositorio mediante el uso de una api, Y posteriormente al uso de un crud sencillo(sin el update)
 
-## Getting Started
+## Para la ejecucción de este proyecto en desarrolo
 
-This project is a starting point for a Flutter application.
+- Descargar Flutter con la version actual disponible
+- Descargar el SDK de android estudio
+- Un emulador
+- Tener en el editor de codigo instalado pluggins de dart
 
-A few resources to get you started if this is your first Flutter project:
+## Comandos en desarrollo
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- flutter doctor : con este comando vemos el estado del proyecto y las anteriores dependecias
+- flutter run: actualizar el flutter mediante un menu de opciones
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Modificaciones en desarrollo
+
+Debe ingresar a la carpeta de servicios y modificar la ruta de la api, para poder consumir los servicios
+
+
