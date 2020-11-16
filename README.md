@@ -16,6 +16,6 @@ Proyecto camara , consiste en subir imagenes aun repositorio mediante el uso de 
 
 ## Modificaciones en desarrollo
 
-Debe ingresar a la carpeta de servicios y modificar la ruta de la api, para poder consumir los servicios
+Debe ingresar a la carpeta de servicios y modificar el archivo foto que en este se encuentra las rutas de la api, para poder consumir los servicios
 
 
