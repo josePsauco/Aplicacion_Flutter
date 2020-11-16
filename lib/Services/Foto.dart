@@ -17,7 +17,7 @@ class Foto {
       for (var i = 0; i < list.length; i++) {
         var temfoto = Foto_m.fromJson(list[i]);
         var ruta = temfoto.getRuta();
-        temfoto.setRuta('http://192.168.56.1:4000/' + ruta);
+        temfoto.setRuta('' + ruta);
         listamos.add(temfoto);
       }
       return listamos;
