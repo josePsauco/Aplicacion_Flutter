@@ -11,7 +11,7 @@ class Foto {
   Future<List> getFotos() async {
     List<Foto_m> listamos = List();
     try {
-      http.Response respon = await http.get('http://192.168.56.1:4000/list');
+      http.Response respon = await http.get('');
       var jsonS = respon.body;
       var list = json.decode(jsonS);
       for (var i = 0; i < list.length; i++) {
@@ -27,7 +27,7 @@ class Foto {
   }
 
   Future<int> add(File file, String nombre, String descripcion) async {
-    var postUri = Uri.parse("http://192.168.56.1:4000/add");
+    var postUri = Uri.parse("");
     var request = new http.MultipartRequest("POST", postUri);
     request.fields['descripcion'] = descripcion;
     request.fields['nombre'] = nombre;
@@ -43,7 +43,7 @@ class Foto {
     String respuesta = "";
     try {
       http.Response respon =
-          await http.delete('http://192.168.56.1:4000/delete/$id');
+          await http.delete('');
       var jsonS = respon.body;
       respuesta = json.decode(jsonS);
       return respuesta;
